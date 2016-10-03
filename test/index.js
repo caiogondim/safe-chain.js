@@ -30,3 +30,16 @@ assert(safeProp(obj, '[a].b[d]') === undefined)
 // Invalid query
 assert(safeProp(obj, '[a].b*&%$%ˆ') === undefined)
 assert(safeProp(obj, '[a].b[c]]') === undefined)
+
+//
+// Decorator
+//
+
+// Valid query on decorated object
+const decoratedObj = safeProp(obj)
+assert(decoratedObj.a === obj.a)
+assert(decoratedObj.a.b.c === obj.a.b.c)
+assert(decoratedObj.a.b.c === '1337')
+
+// Invalid query on decorated object
+assert(decoratedObj.a.b.d === undefined)
