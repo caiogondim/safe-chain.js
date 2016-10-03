@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node test/"
   },
   "author": "Caio Gondim <me@caiogondim.com> (http://caiogondim.com)",
   "license": "MIT"
