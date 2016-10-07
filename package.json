@@ -4,8 +4,11 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "node test/"
+    "test": "tap --cov test/**/*.js"
   },
   "author": "Caio Gondim <me@caiogondim.com> (http://caiogondim.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "^7.1.2"
+  }
 }
