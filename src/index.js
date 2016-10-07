@@ -16,7 +16,7 @@ const decorateObj = (obj) => {
 
 const quoteQuery = (query) => {
   return query
-    .replace(/\[/g,'[\'')
+    .replace(/\[/g, '[\'')
     .replace(/\]/g, '\']')
 }
 
@@ -26,9 +26,9 @@ const queryObj = (obj, query) => {
 
   try {
     if (query[0] === '[') {
-      prop = eval(`obj${quotedQuery}`)
+      prop = eval(`obj${quotedQuery}`) // eslint-disable-line no-eval
     } else {
-      prop = eval(`obj.${query}`)
+      prop = eval(`obj.${query}`) // eslint-disable-line no-eval
     }
   } catch (error) {
     prop = undefined
