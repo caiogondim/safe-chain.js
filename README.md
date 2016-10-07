@@ -1,4 +1,4 @@
-<img src="http://rawgit.com/caiogondim/safe-prop.js/master/img/icon.svg">
+<img src="http://rawgit.com/caiogondim/safe-chain.js/master/img/icon.svg">
 
 # safe-chain.js
 
