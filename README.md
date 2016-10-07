@@ -2,6 +2,8 @@
 
 # safe-chain.js
 
+<img src="http://travis-ci.org/caiogondim/safe-chain.js.svg?branch=master" alt="Travis CI"> [![codecov](https://codecov.io/gh/caiogondim/obstructed.js/branch/master/graph/badge.svg)](https://codecov.io/gh/caiogondim/safe-chain.js)
+
 No more crazy checks to safely get a nested value inside an object.
 
 Think of it as [Ruby safe operator](https://irb.rocks/ruby-safe-operator/) or
