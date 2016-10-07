@@ -41,7 +41,7 @@ const queryObj = (obj, query) => {
 // API
 //
 
-const safeProp = (obj, query) => {
+const safeChain = (obj, query) => {
   if (query === undefined) {
     return decorateObj(obj)
   } else {
@@ -49,4 +49,4 @@ const safeProp = (obj, query) => {
   }
 }
 
-module.exports = safeProp
+module.exports = safeChain
