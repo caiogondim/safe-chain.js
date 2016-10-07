@@ -7,7 +7,8 @@
     "lint": "standard --fix 'test/**/*.js' 'src/**/*.js'",
     "test": "tap --cov test/**/*.js",
     "test:all": "npm run lint && npm run test",
-    "posttest": "tap --coverage-report=lcov | codecov"
+    "posttest": "tap --coverage-report=lcov | codecov",
+    "preversion": "npm run test:all"
   },
   "author": "Caio Gondim <me@caiogondim.com> (http://caiogondim.com)",
   "license": "MIT",
