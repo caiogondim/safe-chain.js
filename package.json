@@ -6,11 +6,13 @@
   "scripts": {
     "lint": "standard --fix 'test/**/*.js' 'src/**/*.js'",
     "test": "tap --cov test/**/*.js",
-    "test:all": "npm run lint && npm run test"
+    "test:all": "npm run lint && npm run test",
+    "posttest": "tap --coverage-report=lcov | codecov"
   },
   "author": "Caio Gondim <me@caiogondim.com> (http://caiogondim.com)",
   "license": "MIT",
   "devDependencies": {
+    "codecov": "^1.0.1",
     "standard": "^8.3.0",
     "tap": "^7.1.2"
   }
