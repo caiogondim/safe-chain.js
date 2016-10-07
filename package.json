@@ -1,5 +1,5 @@
 {
-  "name": "safe-prop",
+  "name": "@caiogondim/safe-prop",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
