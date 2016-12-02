@@ -83,3 +83,9 @@ npm install @caiogondim/safe-chain
 - [Ruby safe operator](https://irb.rocks/ruby-safe-operator/)
 - [CoffeeScript existential operator](http://valve.github.io/blog/2013/07/13/existential-operator-in-coffeescript/)
 - Icon by Martin Chapman Fromm from the Noun Project
+
+---
+
+[caiogondim.com](https://caiogondim.com) &nbsp;&middot;&nbsp;
+GitHub [@caiogondim](https://github.com/caiogondim) &nbsp;&middot;&nbsp;
+Twitter [@caio_gondim](https://twitter.com/caio_gondim)
