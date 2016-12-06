@@ -5,6 +5,8 @@
 
 <div align="center">
 <img src="http://travis-ci.org/caiogondim/safe-chain.js.svg?branch=master" alt="Travis CI"> <img src="https://codecov.io/gh/caiogondim/obstructed.js/branch/master/graph/badge.svg" alt="Codecov">
+</div>
+
 <br>
 
 No more crazy checks to safely get a nested value inside an object.
