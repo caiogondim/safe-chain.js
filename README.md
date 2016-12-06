@@ -1,8 +1,11 @@
 <img src="http://rawgit.com/caiogondim/safe-chain.js/master/img/icon.svg">
 
-# safe-chain.js
+<h1 align="center">safe-chain.js</h1>
 
-<img src="http://travis-ci.org/caiogondim/safe-chain.js.svg?branch=master" alt="Travis CI"> [![codecov](https://codecov.io/gh/caiogondim/obstructed.js/branch/master/graph/badge.svg)](https://codecov.io/gh/caiogondim/safe-chain.js)
+
+<div align="center">
+<img src="http://travis-ci.org/caiogondim/safe-chain.js.svg?branch=master" alt="Travis CI"> <img src="https://codecov.io/gh/caiogondim/obstructed.js/branch/master/graph/badge.svg" alt="Codecov">
+<br>
 
 No more crazy checks to safely get a nested value inside an object.
 
