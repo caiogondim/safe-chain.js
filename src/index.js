@@ -1,23 +1,7 @@
-//
-// Decorator
-//
-
-const decorateObj = (obj) => {
-  return new Proxy(obj, {
-    get: (target, prop) => {
-      return queryObj(target, prop)
-    }
-  })
-}
-
-//
-// Query
-//
-
 const quoteQuery = (query) => {
   return query
     .replace(/\[/g, '[\'')
-    .replace(/\]/g, '\']')
+    .replace(/]/g, '\']')
 }
 
 const queryObj = (obj, query) => {
@@ -41,12 +25,6 @@ const queryObj = (obj, query) => {
 // API
 //
 
-const safeChain = (obj, query) => {
-  if (query === undefined) {
-    return decorateObj(obj)
-  } else {
-    return queryObj(obj, query)
-  }
-}
+const safeChain = (obj, query) => queryObj(obj, query)
 
 module.exports = safeChain

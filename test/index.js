@@ -44,21 +44,3 @@ tap.test(`invalid query`, (test) => {
   test.ok(safeChain(obj, '[a].b[c]]') === undefined)
   test.end()
 })
-
-//
-// Decorator
-//
-
-const decoratedObj = safeChain(obj)
-
-tap.test(`valid query on decorated object`, (test) => {
-  test.ok(decoratedObj.a === obj.a)
-  test.ok(decoratedObj.a.b.c === obj.a.b.c)
-  test.ok(decoratedObj.a.b.c === '1337')
-  test.end()
-})
-
-tap.test(`invalid query on decorated object`, (test) => {
-  test.ok(decoratedObj.a.b.d === undefined)
-  test.end()
-})
