@@ -51,31 +51,6 @@ const nestedFuncVal = (
 const nestedFuncVal = safeChain(obj, `lorem.ipsum.dolor`)()
 ```
 
-### Decorator
-
-If only one argument is passed, *safe-chain.js* will return a decorated object
-in which you can safely get nested properties.
-
-```js
-const obj = {
-  a: {
-    b: {
-      c: '1337'
-    }
-  }
-}
-
-console.log(obj.a.b.d) // => undefined
-console.log(obj.a.c.e) // => TypeError: Cannot read property 'e' of undefined
-
-const decoratedObj = safeChain(obj)
-console.log(decoratedObj.a.b.d) // => undefined
-console.log(decoratedObj.a.c.e) // => undefined
-```
-
-It uses the new Proxy API under the hood, so make sure your platform supports it
-in the first place.
-
 ## Installation
 
 ```bash
