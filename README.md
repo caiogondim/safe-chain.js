@@ -54,7 +54,7 @@ const nestedFuncVal = safeChain(obj, `lorem.ipsum.dolor`)()
 ## Installation
 
 ```bash
-npm install @caiogondim/safe-chain
+npm install safe-chain
 ```
 
 
