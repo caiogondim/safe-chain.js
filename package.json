@@ -1,5 +1,5 @@
 {
-  "name": "@caiogondim/safe-chain",
+  "name": "safe-chain",
   "version": "2.0.1",
   "description": "No more crazy checks to safely get a nested value inside an object",
   "main": "src/index.js",
