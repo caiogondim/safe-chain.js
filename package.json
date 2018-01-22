@@ -5,16 +5,22 @@
   "main": "src/index.js",
   "scripts": {
     "lint": "standard --fix 'test/**/*.js' 'src/**/*.js'",
-    "test": "tap --cov test/**/*.js",
+    "test": "jest",
     "test:all": "npm run lint && npm run test",
-    "posttest": "tap --coverage-report=lcov | codecov",
     "preversion": "npm run test:all"
   },
   "author": "Caio Gondim <me@caiogondim.com> (http://caiogondim.com)",
   "license": "MIT",
   "devDependencies": {
     "codecov": "^1.0.1",
-    "standard": "^8.3.0",
-    "tap": "^7.1.2"
+    "jest": "22.1.4",
+    "standard": "^8.3.0"
+  },
+  "jest": {
+    "roots": [
+      "test/"
+    ],
+    "testRegex": "test/.*\\.js$",
+    "collectCoverage": true
   }
 }
