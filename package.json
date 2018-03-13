@@ -1,6 +1,6 @@
 {
   "name": "safe-chain",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "No more crazy checks to safely get a nested value inside an object",
   "main": "src/index.js",
   "scripts": {
