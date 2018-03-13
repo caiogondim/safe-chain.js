@@ -1,3 +1,5 @@
+/* global test, expect */
+
 const safeChain = require('../src/')
 
 const obj = {
