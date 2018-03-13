@@ -1,8 +1,8 @@
 <img src="http://rawgit.com/caiogondim/safe-chain.js/master/img/icon.svg">
 
-<h1 align="center">safe-chain.js</h1>
+# safe-chain
 
-<div align="center">
+<div>
 <img src="http://travis-ci.org/caiogondim/safe-chain.js.svg?branch=master" alt="Travis CI"> <img src="http://img.badgesize.io/caiogondim/safe-chain.js/master/src/index.js?compression=gzip"> <img src="https://codecov.io/gh/caiogondim/obstructed.js/branch/master/graph/badge.svg" alt="Codecov"> <a href="https://www.npmjs.com/package/safe-chain"><img src="https://img.shields.io/npm/v/safe-chain.svg" /></a>
 </div>
 
@@ -14,6 +14,12 @@ Think of it as [Ruby safe operator](https://irb.rocks/ruby-safe-operator/) or
 [CoffeeScript existential
 operator](http://valve.github.io/blog/2013/07/13/existential-operator-in-coffeescript/),
 implemented as a simple function in JavaScript.
+
+## Installation
+
+```bash
+npm install safe-chain
+```
 
 ## Usage
 
@@ -49,13 +55,6 @@ const nestedFuncVal = (
 // After
 const nestedFuncVal = safeChain(obj, `lorem.ipsum.dolor`)()
 ```
-
-## Installation
-
-```bash
-npm install safe-chain
-```
-
 
 ## Credits
 
